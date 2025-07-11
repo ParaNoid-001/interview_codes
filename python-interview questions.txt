@@ -1,0 +1,93 @@
+1) what is python?
+
+- Python is a versatile, high-level programming language known for its readability and simplicity. It's widely used in web development, software development, data science, and machine learning. 
+
+2) what are the data types in python ?
+
+- float, str, list, tuple, dict, set, bool, and NoneType. 
+
+3) difference between list & tuples ?
+
+- List: Ordered, mutable. 
+- Tuple: Ordered, immutable. 
+- Set: Unordered, no duplicates, mutable.
+- Dictionary: Key-value pairs, mutable.
+
+4) what are python decorators?
+
+- decorators are basically python function to modify the behavior of other functions or methods.
+
+5) difference between set and dictionary?
+
+- set : unordered, mutable, stores unique data
+- disctionary : stores data in key value pair, mutable
+
+6) what's deep copy and shallow copy ?
+- Shallow copy copies references of nested objects.
+- deep copy recursively copies all objects.
+
+7) what's oops in python?
+
+- it's a programming paradigm that uses objects and classes to structure code. it allows developers to model real-world entities and their interactions using programming concepts.
+
+8) difference between function and method?
+
+- Functions are independent blocks of code that can be called from anywhere
+- while methods are tied to objects or classes and need an object or class instance to be invoked
+
+9) How to shuffle list? list manupulation/list comprehension ?
+
+- list shuffle is to modify or change the place of the existing elements inside a list.
+we can use two functions here random.shuffle() - it shuffles the original list. 
+random.sample() - it makes a shuffled copy of the original list elements where as keep the original list value same.
+
+- List comprehension is not used for direct shuffling, but can be used to create a shuffled copy or perform operations after shuffling.  
+
+10) how to reverse string?
+
+- by using slicing method.
+
+string="Hello"
+reversed_string=string[::-1]
+print(reversed_string)
+
+11) Stack & queue?
+-Stacks and queues are simple data structures that allow us to store and retrieve data sequentially. In a stack, the last item we enter is the first to come out. In a queue, the first item we enter is the first come out. We can add items to a stack using the push operation and retrieve items using the pop operation.
+
+Push: Adds a new element on the stack.
+Pop: Removes and returns the top element from the stack.
+Peek: Returns the top element on the stack.
+isEmpty: Checks if the stack is empty.
+Size: Finds the number of elements in the stack.
+
+<------------------------------------------------------------------------------------->
+
+1) What is django?
+-A high-level Python web framework that encourages rapid development and clean,
+pragmatic design.
+
+2) what is ORM and what are the features of it ?
+-n Django, an ORM (Object-Relational Mapper) is a powerful tool that acts as an intermediary between Python code and relational databases.
+or 
+-The Django ORM (Object-Relational Mapper) is a powerful feature that allows developers to interact with databases using Python code rather than writing raw SQL queries
+
+3) What is MVT? and it's features ?
+
+4) What's JWT?
+-JWT (JSON Web Token) is an open standard (RFC 7519) that defines a compact, self-contained way to securely transmit information between parties as a JSON object. 
+-It consists of three parts:
+Header (algorithm and token type)
+Payload (claims/data)
+Signature (verification)
+
+
+5) Difference between staticmethod and dynamicmethod ?
+-@staticmethod : doesn’t access class or instance.
+-@classmethod : takes class ( cls ) as first
+argument.
+
+6) what is jinja ?
+
+7) 
+
+
